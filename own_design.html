@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Default Home Page</title>
+    <title>Pastry</title>
 
     <link rel="stylesheet" href="style.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
         /* change colors depende sa color theme nyo */
         
         /* for primary color */
         .text-primary {
-            color: black;
+            color: #CFA9B6;
         }
         .bg-primary {
-            background-color: #815d69;
+            background-color: #CFA9B6;
         }
         button {
-            border-color: #34a5c721;
+            border-color: #cfa9b6a5;
         }
         /* for secondary color */
         .text-secondary {
-            color: black;
+            color: #815D69;
         }
         .bg-secondary {
-            background-color: white;
+            background-color: #815D69;
+        }
+
+        .text-black {
+            color: black;
         }
 
         /* change button text color to black pag di kita ang white */
@@ -37,20 +40,28 @@
             /* color: black; */
         }
         body {
-            background-image: url('cookie.png');
-            background-size: cover;
-            background-position: top;
-            background-repeat: no-repeat;
+            background-image: url('images/wave-haikei.svg'), url('images/cookie.png');
         }
-        h1{
+        .main h1{
             color: white;
-            font-family: 'Noto Serif Georgian', serif;
-            font-size: 700%;
+            font-family: Lobster, cursive;
+            font-size: 7rem;
+            text-shadow: 2px 2px 5px black;
         }
-        
-        p{
-           color: black;
-           
+        .main p {
+            font-size: 1.7rem;
+            color: white;
+            background-color: #936F7B4A;
+            font-family: 'Poppins', sans-serif;
+        }
+        .main button {
+            border-color: #71525c9b;
+        }
+
+        .icon {
+            /* width: 76px; */
+            height: 75px;
+            left:48.5%;
         }
     </style>
 </head>
@@ -58,21 +69,21 @@
 
     <div class="navbar">
         <div class="align-left">
-            <a class="text-primary" href="galaxy.html">Galaxy</a>
             <a class="text-primary" href="nature.html">Nature</a>
+            <a class="text-primary" href="galaxy.html">Galaxy</a>
             <a class="text-primary" href="technology.html">Technology</a>
-            <a href="index.html"><span class="circle bg-primary"></span></a>
+            <a href="index.html"><img class="icon" src="images/cupcake.png"></img></a>
         </div>
         <div class="align-right">
-            <a class="text-primary" href="">Minimalist</a>
-            <button class="button bg-primary" href="">Button</button>
+            <a class="text-primary" href="own_design.html">Pastry</a>
+            <button class="button bg-primary text-black" href="">Button</button>
         </div>
     </div>
     <div class="content">
         <div class="main">
-            <h1>Baker's Bites</h1>
+            <h1 class="">Baker's Bites</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, non. Tempore culpa consequuntur corporis voluptatem nemo fugiat ducimus sunt architecto!</p>
-            <button class="button button-lg bg-primary">Button</button>
+            <button class="button button-lg bg-secondary text-black">Button</button>
         </div>
     </div>
 </body>

@@ -39,14 +39,15 @@ body {
     margin-left: auto;
 }
 .circle {
-    display: inline-block;
-    /* align-items: center; */
-    position: absolute;
-    left: 48.5%;
-    top: 35px;
     border-radius: 100px;
     width: 60px;
     height: 60px;
+}
+.icon {
+    display: inline-block;
+    position: absolute;
+    left: 48.5%;
+    top: 35px;
 }
 
 

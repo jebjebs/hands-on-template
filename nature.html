@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="style.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
         /* change colors depende sa color theme nyo */
         
         /* for primary color */
@@ -35,9 +36,8 @@
         }
 
         body {
-            background-image: url('nature-bg.svg');
+            background-image: url('images/layered-peaks-haikei.svg'), url('images/nature-bg.svg');
             background-size: cover;
-            background-position: top;
             background-repeat: no-repeat;
         }
 
@@ -46,24 +46,31 @@
             height: 76px;
             left:48%;
         }
+        .main h1 {
+            font-size: 7.2rem;
+            font-family: 'Dosis', sans-serif;
+            margin-top: 20px;
+            margin-bottom: 35px;
+            color: green;
+        }
     </style>
 </head>
 <body>
     <div class="navbar">
         <div class="align-left">
-            <a class="text-primary" href="galaxy.html">Galaxy</a>
             <a class="text-primary" href="nature.html">Nature</a>
+            <a class="text-primary" href="galaxy.html">Galaxy</a>
             <a class="text-primary" href="technology.html">Technology</a>
-            <a href="index.html"><img class="circle icon" src="autumn-leaf.png"></img></a>
+            <a href="index.html"><img class="circle icon" src="images/autumn-leaf.png"></img></a>
         </div>
         <div class="align-right">
-            <a class="text-primary" href="">Minimalist</a>
+            <a class="text-primary" href="own_design.html">Pastry</a>
             <button class="button bg-primary" href="">Button</button>
         </div>
     </div>
     <div class="content">
         <div class="main">
-            <h1>Nature Theme</h1>
+            <h1>Nature</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, non. Tempore culpa consequuntur corporis voluptatem nemo fugiat ducimus sunt architecto!</p>
             <button class="button button-lg bg-primary">Button</button>
         </div>
