@@ -1,0 +1,122 @@
+/* import Open Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+html {
+font-size: 10px;
+}
+.navbar {
+font-size: 1.8rem;
+font-weight: 600;
+}
+.navbar button {
+font-size: 1.6rem;
+}
+h1 {
+font-size: 5.6rem;
+}
+p {
+font-size: 1.7rem;
+}
+button {
+font-size: 1.9rem;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+display: flex;
+padding: 40px 35px;
+}
+.navbar a {
+text-decoration: none;
+margin-left: 15px;
+margin-right: 15px;
+
+}
+.navbar .align-right {
+margin-left: auto;
+}
+.circle {
+border-radius: 100px;
+width: 60px;
+height: 60px;
+}
+.icon {
+display: inline-block;
+position: absolute;
+left: 48.5%;
+top: 35px;
+}
+
+
+button {
+padding: 6px 20px;
+margin-left: 15px;
+margin-right: 15px;
+cursor: pointer;
+font-weight: 600;
+border-radius: 3px;
+}
+.button-lg {
+padding: 10px 40px;
+}
+
+.content .main{
+margin:auto;
+text-align: center;
+width: 40%;
+padding: 10% 0;
+}
+.main p {
+line-height: 2.6rem;
+margin-bottom: 20px;
+color: gray;
+}
+
+
+/*GALAXY THEME*/
+.text-primary {
+color: #ffe4f2;
+}
+.bg-primary {
+background-color: #9f45b0;
+}
+button {
+border-color: #9e45b087;
+}
+/* for secondary color */
+.text-secondary {
+color: white;
+}
+.bg-secondary {
+background-color: white;
+}
+
+/* change button text color to black pag di kita ang white */
+button {
+color: white; 
+/* color: black; */
+font-family: 'Bungee', cursive;
+}
+
+body {
+background-image: url('images/galaxypic.jpg');
+background-size: cover;
+background-position: top;
+background-repeat: no-repeat;
+}
+
+.icon {
+width: 76px;
+height: 76px;
+left:48%;
+}
+h1 {
+color: BLACK; 
+font-family: 'Bungee', cursive;
+}
+p {
+font-family: 'Bungee', cursive;
+}
