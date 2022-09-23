@@ -16,17 +16,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: "Bungee display";
-  color: #333333;
-}
-.content a {
-font-size: 1.4rem;
-color: white;
 }
 
 .box-form {
-  margin: 0 auto;
-  width: 80%;
+  margin: 50px auto 0;
+  width: 70%;
   background: #FFFFFF;
   border-radius: 10px;
   overflow: hidden;
@@ -69,7 +63,7 @@ color: white;
   line-height: 1;
   font-weight: 900;
   margin-top: 110px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .box-form .left .overlay span p {
   margin-top: 30px;
@@ -119,16 +113,6 @@ color: white;
   border: none;
   outline: none;
   border-bottom: 2px solid #B0B3B9;
-}
-.box-form .right .remember-me--forget-password {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.box-form .right .remember-me--forget-password input {
-  margin: 0;
-  margin-right: 7px;
-  width: auto;
 }
 .box-form .right button {
   float: right;
@@ -189,6 +173,28 @@ label span.text-checkbox {
 label input[type="checkbox"] {
   display: none;
 }
+
+
+.contact-details {
+  display:block;
+  margin: 10px auto;
+}
+
+.right button {
+  margin-top: 20px;
+}
+.right button:hover {
+  color:#81B045;
+}
+
+.right .send-message {
+  color: #9f45b0;
+  text-decoration: none;
+}
+
+.right h5 {
+  color: black;
+}
 </style>
 
 </head>
@@ -207,45 +213,30 @@ label input[type="checkbox"] {
 	</div>
 </div>
 
-<!-- partial:index.partial.html -->
 <div class="box-form">
 	<div class="left">
 		<div class="overlay">
-		<h1>contact us</h1>
-		<i style="font-size:24px" class="fa">&#xf095;</i> <span> +6390123456789 </span><br><br>
-    <i style="font-size:24px" class="fa">&#xf1fa;</i> <span> galaxy@gmail.com </span><br><br>
-    <i style="font-size:24px" class="fa">&#xf041;</i> <span> 123 Recto Ave, Manila City </span>
+		<h1>Contact Us</h1>
+		<span class="contact-details"><i class="fa">&#xf095;</i>+6390123456789</span>
+    <span class="contact-details"><i class="fa">&#xf1fa;</i>galaxy@gmail.com</span>
+    <span class="contact-details"><i class="fa">&#xf041;</i>123 Recto Ave, Manila City</span>
 
 
 		</div>
 	</div>
-	
-	
-		<div class="right">
-		<h5>Send an email</h5>
-		<p>Have inquiries? <a href="#">Send us a message!</a> it will take less than a minute</p>
-		<div class="inputs">
-			<input type="text" placeholder="Name">
-			<br>
-			<input type="password" placeholder="E-mail">
+  <div class="right">
+    <h5>Send an email</h5>
+    <p>Have inquiries? <a href="#" class="send-message">Send us a message!</a> It will take less than a minute</p>
+    <div class="inputs">
+      <input type="text" placeholder="Name">
+      <br>
+      <input type="password" placeholder="E-mail">
       <br>
       <input type="password" placeholder="Your Message">
-		</div>
-			
-			<br><br>
-			
-		<div class="remember-me--forget-password">
-				<!-- Angular -->
-	
-			
-		</div>
-			
-			<br>
-			<button>SUBMIT</button>
-	</div>
+    </div>
+      <button>SUBMIT</button>
+  </div>
 	
 </div>
-<!-- partial -->
-  
 </body>
 </html>

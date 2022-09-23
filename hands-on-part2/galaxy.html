@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* change colors depende sa color theme nyo */
+        
+        /* for primary color */
+        .text-primary {
+            color: #ffe4f2;
+        }
+        .bg-primary {
+            background-color: #9f45b0;
+        }
+        button {
+            border-color: #9e45b087;
+        }
+        /* for secondary color */
+        .text-secondary {
+            color: white;
+        }
+        .bg-secondary {
+            background-color: white;
+        }
+
+        /* change button text color to black pag di kita ang white */
+        button {
+            color: white; 
+            /* color: black; */
+            font-family: 'Bungee', cursive;
+        }
+
+        body {
+            background-image: url('images/galaxypic.jpg');
+            background-size: cover;
+            background-position: top;
+            background-repeat: no-repeat;
+        }
+
+        .icon {
+            width: 76px;
+            height: 76px;
+            left:48%;
+        }
+        h1 {
+           color: white; 
+           font-family: 'Bungee', cursive;
+        }
+        p {
+            font-family: 'Bungee', cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="align-left">
+            <a class="text-primary" href="nature.html">Nature</a>
+            <a class="text-primary" href="galaxy.html">Galaxy</a>
+            <a class="text-primary" href="technology.html">Technology</a>
+            <a href="index.html"><img class="circle icon" src="images/ufo.png"></img></a>
+        </div>
+        <div class="align-right">
+            <a class="text-primary" href="own_design.html">Pastry</a>
+            <button class="button bg-primary" href="">Button</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="main">
+            <h1>Galaxy</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, non. Tempore culpa consequuntur corporis voluptatem nemo fugiat ducimus sunt architecto!</p>
+            <button class="button button-lg bg-primary">Button</button>
+        </div>
+    </div>
+</body>
+</html>
