@@ -14,9 +14,10 @@
     <style>
         .row {
             display: flex;
-            align-items: center;
-            justify-content: center;
+            /* align-items: center; */
+            /* justify-content: center; */
             margin: auto 100px;
+            padding-top: 50px;
         }
 
         .column {
@@ -36,9 +37,17 @@
 
         .button-download {
             padding: 1px 4px;
+            margin-left: 0;
         }
         .button-google {
             width: 150px;
+        }
+        .right img {
+            padding-top: 50px;
+            width: 600px;
+        }
+        .right {
+            /* margin-right: -150px; */
         }
     </style>
 </head>
@@ -61,13 +70,12 @@
             <h1>Prepare to be blown away..</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis recusandae, dolorem consequuntur,
                 doloremque repudiandae fuga!</p>
-            <a href="#">Download our app</a>
+            <!-- <a href="#">Download our app</a> -->
             <button class="button button-download bg-primary"><img src="images/google.png" class="button-google" alt=""></button>
             <button class="button button-download bg-primary"><img src="images/apple.png" class="button-google" alt=""></button>
         </div>
-        <div class="column">
-            <!-- <h1>Sample text</h1>
-            <p>sample text</p> -->
+        <div class="column right">
+            <img src="images/download.png" alt="">
         </div>
     </div>
 </body>
